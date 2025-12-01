@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "随机生成可爱俏皮的中文昵称，例如 '小土豆' or '软布丁'",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
