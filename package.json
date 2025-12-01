@@ -1,0 +1,30 @@
+{
+  "name": "cute-nickname",
+  "version": "1.0.0",
+  "description": "随机生成可爱俏皮的中文昵称，例如 '小土豆' or '软布丁'",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "nickname",
+    "chinese",
+    "cute",
+    "cn",
+    "generator",
+    "typescript"
+  ],
+  "author": "zhuzhu",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20.0.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
