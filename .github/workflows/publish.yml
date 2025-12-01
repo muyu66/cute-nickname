@@ -5,12 +5,16 @@ name: Publish to npm
 on:
   push:
     tags:
-      - "v[0-9]+.[0-9]+.[0-9]+" # 匹配 v1.0.0, v2.3.4 等
-      - "v[0-9]+.[0-9]+.[0-9]+-*" # 允许预发布，如 v1.0.0-beta.1
+      - "v[0-9]+.[0-9]+.[0-9]+"
+      - "v[0-9]+.[0-9]+.[0-9]+-*"
 
 jobs:
   publish:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      id-token: write # 启用 OIDC
 
     steps:
       - name: Checkout code
