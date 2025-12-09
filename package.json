@@ -10,7 +10,7 @@
   "bugs": {
     "url": "https://github.com/muyu66/cute-nickname/issues"
   },
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "随机生成可爱俏皮的中文昵称，例如 '小土豆' or '软布丁'",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
